@@ -8,10 +8,9 @@ def my_all?(collection)
     i = i + 1
   end
 
-  if my_all?.include?(false)
+  if block_return_values.include?(false)
     false
   else
     true
   end
 end
-
