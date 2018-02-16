@@ -7,10 +7,11 @@ def my_all?(collection)
     yield(collection[i])
     i = i + 1
   end
+
+  if my_all?.include?(false)
+    false
+  else
+    true
+  end
 end
 
-if my_all?.include?(false)
-  false
-else
-  true
-end
