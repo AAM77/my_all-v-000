@@ -9,4 +9,8 @@ def my_all?(collection)
   end
 end
 
-my_all?([1,2,3]) {|i| i < 2}
+if my_all?.include?(false)
+  false
+else
+  true
+end
